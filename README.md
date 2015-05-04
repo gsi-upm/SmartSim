@@ -1,2 +1,2 @@
 # SmartSim
-SmartSim proyect
+SmartSim proyect by GSI-UPM
