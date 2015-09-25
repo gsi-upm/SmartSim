@@ -19,7 +19,7 @@ Preparation
 sudo apt-get install cmake g++ libxerces-c3-dev libgl1-mesa-dev libglu1-mesa-dev xutils-dev libxi-dev freeglut3-dev libglew-dev libxft-dev libapr1-dev libaprutil1-dev libcppunit-dev liblapack-dev libblas-dev libf2c2-dev build-essential python-dev libopenal-dev libsndfile-dev libalut-dev libfltk1.3-dev libboost-all-dev libode-dev libncurses5-dev
 
 #packages needed for Ogre rendering
-sudo apt-get install libzzip-dev libxaw7-dev libxxf86vm-dev libxrandr-dev libfreeimage-dev nvidia-cg-toolkit libois-dev libogre-dev ogre-1.8-samples-data
+sudo apt-get install libzzip-dev libxaw7-dev libxxf86vm-dev libxrandr-dev libfreeimage-dev nvidia-cg-toolkit libois-dev libogre-1.9-dev ogre-1.9-samples-data
 
 # irrlicht code is included in the sdk
 

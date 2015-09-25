@@ -1,0 +1,12 @@
+/home/winston/smartbody/build/src/SmartBody/CMakeFiles/SmartBody.dir
+/home/winston/smartbody/build/src/assimp-3.1.1/CMakeFiles/assimp.dir
+/home/winston/smartbody/build/src/bonebus/CMakeFiles/bonebus.dir
+/home/winston/smartbody/build/src/sbgui/external/Pinocchio/CMakeFiles/pinocchio.dir
+/home/winston/smartbody/build/src/sbgui/external/polyvox/CMakeFiles/polyvoxcore.dir
+/home/winston/smartbody/build/src/pprAI/CMakeFiles/pprAI.dir
+/home/winston/smartbody/build/src/SmartBody/CMakeFiles/protoctarget.dir
+/home/winston/smartbody/build/src/sbgui/CMakeFiles/sbgui.dir
+/home/winston/smartbody/build/src/simplesmartbody/CMakeFiles/simplesmartbody.dir
+/home/winston/smartbody/build/src/steerlib/CMakeFiles/steerlib.dir
+/home/winston/smartbody/build/src/vhcl/CMakeFiles/vhcl.dir
+/home/winston/smartbody/build/src/vhmsg/CMakeFiles/vhmsg.dir

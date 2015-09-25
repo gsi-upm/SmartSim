@@ -1,0 +1,69 @@
+package SmartBodyBinary;
+
+/*
+	This file defines protocols for every message related to asset mesh including:
+		- material
+		- skin weight
+		- static mesh
+		- dynamic mesh
+	
+	For now only static mesh and dynamic mesh will be exported as binary files.
+*/
+
+import "sbutilities.proto";
+
+message Material
+{
+	repeated int32 ambient = 1;
+	repeated int32 diffuse = 2;
+	repeated int32 specular = 3;
+	repeated int32 emission = 4;
+	required int32 shininess = 5;
+}
+
+message MeshModel
+{
+	required string meshName = 1;
+	repeated Material materials = 2;
+	repeated float vertexCoordinates = 3;
+	repeated float normals = 4;
+	repeated float tangents = 5;
+	repeated float binormals = 6;
+	repeated float textureCoordinates = 7;
+	repeated int32 triangleFaceIndices = 8;
+	repeated int32 materialIndices = 9;
+	repeated int32 normalIndices = 10;
+	repeated int32 textureCoordinatesIndices = 11;
+	required bool culling = 12;
+	repeated string materialNames = 13;
+	repeated StringToStringMap materialToDiffuseTextureMapping = 14;
+	repeated StringToStringMap materialToNormalTextureMapping = 15;
+	repeated StringToStringMap materialToSpecularTextureMapping = 16;
+	repeated StringToIntVectorMap materialToFaceIndices = 17;
+}
+
+message SkinWeight
+{
+	required string sourceMeshName = 1;
+	repeated string influenceJointNames = 2;
+	repeated float bindWeights = 3;
+	repeated float bindPoseMatrice = 4;
+	repeated float bindShapeMatrix = 5;
+	repeated int32 numberOfInfluenceJoints = 6;
+	repeated int32 weightIndices = 7;
+	repeated int32 jointNameIndices = 8;
+}
+
+message StaticMesh
+{
+	required string staticMeshName = 1;
+	repeated MeshModel meshModels = 2;
+}
+
+message DeformableMesh
+{
+	required string deformableMeshName = 1;
+	required StaticMesh staticMesh = 2;
+	repeated SkinWeight skinWeights = 3;
+	repeated StringToStringVectorMap morphTargets = 4;
+}

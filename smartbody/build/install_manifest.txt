@@ -1,0 +1,5 @@
+/home/winston/smartbody/build/.././bin/libsteerlib.so
+/home/winston/smartbody/build/.././bin/libpprAI.so
+/home/winston/smartbody/build/.././bin/libSmartBody.so
+/home/winston/smartbody/build/.././bin/sbgui
+/home/winston/smartbody/build/.././bin/simplesmartbody

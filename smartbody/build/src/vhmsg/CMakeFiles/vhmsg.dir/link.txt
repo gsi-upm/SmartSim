@@ -1,0 +1,2 @@
+/usr/bin/ar cr libvhmsg.a  CMakeFiles/vhmsg.dir/HttpUtility.cpp.o CMakeFiles/vhmsg.dir/vhmsg.cpp.o CMakeFiles/vhmsg.dir/vhmsg-tt.cpp.o
+/usr/bin/ranlib libvhmsg.a
