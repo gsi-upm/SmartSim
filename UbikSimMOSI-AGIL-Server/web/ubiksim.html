@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>UbikSim Web Service</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"
+        rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="bootstrap.css">
+    </head>
+    
+    <body>
+        <!-- Modal HTML -->
+        <div class="container"></div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="text-center">UbikSim Web Service</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="nav nav-justified nav-pills">
+                            <li class="Actions" id="Actions">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                aria-expanded="false">Control actions <span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <a href="ubiksim?control=pause&amp;output=web">Pause</a>
+                                    </li>
+                                    <li>
+                                        <a href="ubiksim?control=play&amp;output=web">Play</a>
+                                    </li>
+                                    <li>
+                                        <a href="ubiksim?control=stop&amp;output=web">Stop</a>
+                                    </li>
+                                    <li>
+                                        <a href="ubiksim?control=frames&amp;output=web">Frames</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                aria-expanded="false">Position actions <span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <a href="ubiksim?position=people&amp;output=web">People</a>
+                                    </li>
+                                    <li>
+                                        <a href="ubiksim?position=map&amp;output=web">Map</a>
+                                    </li>
+                                    <li>
+                                        <a href="ubiksim?position=emergency&amp;output=web">Emergency</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>&nbsp;</p>
+                        <a href="#"><img src="logoUbikSim.jpg" class="img-responsive"></a>
+                        <div class="col-md-12">
+                            <p>&nbsp;</p>
+                            <form class="form-inline text-center" role="submit" action="ubiksim?output=web"
+                            method="post" class="form-control">Add or move your avatar "(id,x,y)"
+							<input type="text" name="position" placeholder="(Pepe,72,50)">					
+                              <button type="submit" class="btn btn-default">Submit</button>
+                            </form>
+							<p>&nbsp;</p>
+							
+                            <div class="section text-left" id="output">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12 text-left">
+                                            <!--SERVLET OUTPUT-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row"></div>
+                <div class="row text-center">
+                    <div class="col-md-12 text-left">
+                        <div class="section text-center" id="authors">
+                            <p>&nbsp;</p>
+                            <p class="text-center">Authors: Emilio Serrano and Carlos A. Iglesias.</p>
+                            <p class="text-center">UbikSim Web Service is based on
+                                <a href="https://github.com/emilioserra/UbikSim/wiki"> UbikSim 2.0. </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <p>&nbsp;</p>
+                    <div class="col-md-12">
+                        <a href="http://www.gsi.dit.upm.es/"><img src="logo_gsi.png" class="img-responsive"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
