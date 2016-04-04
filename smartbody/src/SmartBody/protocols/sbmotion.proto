@@ -1,0 +1,18 @@
+package SmartBodyBinary;
+
+message Motion
+{
+	required string name = 1;
+	required int32 numChannels = 2;
+	repeated string channelName = 3;
+	repeated int32 channelType = 4;
+	required int32 numFrames = 5;
+	repeated float keyTimes = 6;	// key times (x axis)
+	repeated float keyValues = 7;	// key values (y axis for all the channels)
+	repeated float syncPoints = 8;
+	message MetaData {
+		required string metaDataName = 1;
+		required string metaDataValue = 2;
+	}
+	repeated MetaData metaData = 9;
+}

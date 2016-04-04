@@ -1,0 +1,77 @@
+# SKM Motion Definition 
+# Maya Exporter v1.2    Units: cm
+
+SkMotion
+
+name "ChrHarmony_Relax001_HandGraspSmSphere_Release"
+
+channels 59
+base XPos
+base YPos
+base ZPos
+base Quat
+l_hip Quat
+l_knee Quat
+l_ankle Quat
+l_forefoot Quat
+l_toe Quat
+r_hip Quat
+r_knee Quat
+r_ankle Quat
+r_forefoot Quat
+r_toe Quat
+spine1 Quat
+spine2 Quat
+spine3 Quat
+spine4 Quat
+skullbase Quat
+l_sternoclavicular Quat
+l_shoulder Quat
+l_elbow Quat
+l_forearm Quat
+l_wrist Quat
+l_thumb1 Quat
+l_thumb2 Quat
+l_thumb3 Quat
+l_index1 Quat
+l_index2 Quat
+l_index3 Quat
+l_middle1 Quat
+l_middle2 Quat
+l_middle3 Quat
+l_ring1 Quat
+l_ring2 Quat
+l_ring3 Quat
+l_pinky1 Quat
+l_pinky2 Quat
+l_pinky3 Quat
+r_sternoclavicular Quat
+r_shoulder Quat
+r_elbow Quat
+r_forearm Quat
+r_wrist Quat
+r_thumb1 Quat
+r_thumb2 Quat
+r_thumb3 Quat
+r_index1 Quat
+r_index2 Quat
+r_index3 Quat
+r_middle1 Quat
+r_middle2 Quat
+r_middle3 Quat
+r_ring1 Quat
+r_ring2 Quat
+r_ring3 Quat
+r_pinky1 Quat
+r_pinky2 Quat
+r_pinky3 Quat
+
+frames 1
+kt 0 fr 0.00000 0.00000 0.00000 -0.03146 0.00000 0.00000 -0.04409 0.05901 -0.00274 0.04676 0.00000 0.00000 0.02860 0.00867 0.00602 0.00000 -0.00000 0.00000 -1.01927 6.11560 -1.01927 -0.04413 -0.04674 0.00217 0.04686 0.00000 0.00000 0.02861 -0.00687 -0.00477 -6.28318 0.00000 0.00000 0.00000 0.00000 0.00000 0.03930 -0.00000 0.00000 0.03408 -0.00000 0.00000 0.05015 -0.00000 0.00000 -0.10380 -0.00000 -0.00000 0.09766 -0.00000 -0.00000 0.00000 0.00000 0.00000 0.13815 0.05212 -1.46031 -0.00745 -0.06399 0.00242 0.00000 0.00000 0.00000 0.00421 0.02214 -0.02967 -0.02870 0.31938 0.21984 0.00000 0.00000 0.00000 0.00000 0.00000 0.00000 -0.71322 0.31180 6.05953 -0.71322 0.31180 6.05953 -0.71322 0.31180 6.05953 -0.71322 0.31180 6.05953 -0.71322 0.31180 6.05953 -0.71322 0.31180 6.05953 0.02030 -0.00887 -0.17245 0.02030 -0.00887 -0.17245 0.02030 -0.00887 -0.17245 0.02030 -0.00887 -0.17245 0.02030 -0.00887 -0.17245 0.02030 -0.00887 -0.17245 0.00000 0.00000 0.00000 -0.45087 0.94711 1.10822 0.55204 0.14328 -0.21476 0.00000 0.00000 0.00000 0.27722 0.10341 -0.21185 0.35408 0.02507 -0.25695 0.00000 0.00000 0.00000 -0.11466 0.13217 -0.08867 0.02026 0.09025 0.14900 0.00252 0.00000 0.01518 -0.00149 -0.00000 -0.00898 0.00520 0.00000 0.05860 0.00172 0.00321 0.01907 0.00476 -0.00000 0.05368 -0.00234 -0.08611 -0.00463 0.01163 0.00000 0.11206 0.00000 0.00000 0.00000 -0.00785 -0.08305 -0.03527 -0.00416 -0.15360 -0.00670 0.00000 0.00000 0.00000
+
+
+ready time: 0
+strokeStart time: 0
+emphasis time: 0
+stroke time: 0
+relax time: 0

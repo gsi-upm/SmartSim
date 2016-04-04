@@ -1,0 +1,33 @@
+package SmartBodyBinary;
+
+/*
+	This file defines helper messages
+*/
+
+// repeated StringToStringMap represents std::map<std::string, std::string>
+message StringToStringMap
+{
+	required string from = 1;
+	required string to = 2;
+}
+
+// repeated StringToFloatVectorMap represents std::map<std::string, std::vector<float> >
+message StringToFloatVectorMap
+{
+	required string from = 1;
+	repeated float to = 2;
+}
+
+// repeated StringToIntVectorMap represents std::map<std::string, std::vector<int> >
+message StringToIntVectorMap
+{
+	required string from = 1;
+	repeated int32 to = 2;
+}
+
+// repeated StringToStringVectorMap represents std::map<std::string, std::vector<std::string> >
+message StringToStringVectorMap
+{
+	required string from = 1;
+	repeated string to = 2;
+}
