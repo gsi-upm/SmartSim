@@ -1,2 +1,0 @@
-/usr/bin/ar cr libbonebus.a  CMakeFiles/bonebus.dir/bonebus.cpp.o CMakeFiles/bonebus.dir/bonebus-c.cpp.o
-/usr/bin/ranlib libbonebus.a
