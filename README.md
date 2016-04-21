@@ -47,8 +47,8 @@ To configure SmartSim, a configuration file must be provided. 'SmartSimSettings.
 
 This file is used to configure several SmartSim options such as the number of agents displayed or the path to the UbikSim server.
 
-This file would have the 
+An example of this file would be
 
 ## Running SmartSim
 
-To run any of the SmartSim simulator we must run first UbikSim and SmartBody. Once the UbikSim 
+To run any of the SmartSim simulator we must run first UbikSim and SmartBody. Once the UbikSim simulation is started we can run with SmartBody any of the 
