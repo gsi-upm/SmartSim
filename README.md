@@ -29,5 +29,14 @@ sudo make install
 
 ### Installing UbikSim
 
-To install UbikSim we need a running Apache Tomcat 7 and Java 1.7. 
+To install UbikSim we need a running Apache Tomcat 7 and Java 1.7. This project can be installed both as an Eclipse or Netbeans project.
 
+The project is installed in the Tomcat server. The base path to UbikSim is APACHEPATH/UbikSimMOSI-AGIL-Server/
+
+### Installing SmartSim
+
+In order to install SmartSim, the SmartSim modules and the scene must be copied to the smartbody directories.
+
+To install the scene, the scene folder must be moved to smartbody/data
+
+The scripts in script folder must be moved to smartbody/data/scripts
