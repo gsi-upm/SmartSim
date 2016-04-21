@@ -40,3 +40,15 @@ In order to install SmartSim, the SmartSim modules and the scene must be copied 
 To install the scene, the scene folder must be moved to smartbody/data
 
 The scripts in script folder must be moved to smartbody/data/scripts
+
+## Configuring SmartSim
+
+To configure SmartSim, a configuration file must be provided. 'SmartSimSettings.cfg' must be the name of the file. The file must be placed in the smartbody/bin folder.
+
+This file is used to configure several SmartSim options such as the number of agents displayed or the path to the UbikSim server.
+
+This file would have the 
+
+## Running SmartSim
+
+To run any of the SmartSim simulator we must run first UbikSim and SmartBody. Once the UbikSim 
