@@ -29,7 +29,7 @@ sudo make install
 
 ### Installing UbikSim
 
-To install UbikSim we need a running Apache Tomcat 7 and Java 1.7. This project can be installed both as an Eclipse or Netbeans project.
+To install UbikSim we need a running Apache Tomcat 7, Java 1.7 and Java 3d. This project can be installed both as an Eclipse or Netbeans project.
 
 The project is installed in the Tomcat server. The base path to UbikSim is APACHEPATH/UbikSimMOSI-AGIL-Server/
 
