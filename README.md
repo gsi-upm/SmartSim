@@ -47,7 +47,7 @@ To configure SmartSim, a configuration file must be provided. 'SmartSimSettings.
 
 This file is used to configure several SmartSim options such as the number of agents displayed or the path to the UbikSim server.
 
-An example of this file would be
+An example of this file with all the available options can be found in the config folder.  
 
 ## Running SmartSim
 
