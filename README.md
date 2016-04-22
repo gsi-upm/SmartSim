@@ -51,4 +51,47 @@ An example of this file with all the available options can be found in the confi
 
 ## Running SmartSim
 
-To run any of the SmartSim simulator we must run first UbikSim and SmartBody. Once the UbikSim simulation is started we can run with SmartBody any of the 
+To run any of the SmartSim simulator we must run first UbikSim and SmartBody. Once the UbikSim simulation is started we can run with SmartBody any of the SmartSim use cases. The use cases files are
+
+>
+```
+SmartSimOneCharacter.py
+SmartSimLeader.py
+SmartSimSimulator.py
+SmartSimBehaviors.py
+SmartSimCharacterTypes.py
+```
+
+## Use cases
+
+We have defined some use cases in order to take advantage of the SmartSim possibilities.
+
+- The SmartSimOneCharacter.py simulation sets a simulation with only an agent.
+
+- The SmartSimLeader.py sets a simulation with groups of characters following the leader of each group.
+
+- The SmartSimSimulator.py sets a simulation with many agents with their own path.
+
+- The SmartSimBehavior.py adds emotions to agents of the multi-agent simulation.
+
+- The SmartSimCharacterTypes.py extends the variety of agents displayed.
+
+## Controlling the simulation
+
+In all of the aforementioned simulations, the user can stop or play the simulation as he wishes. To play the simulation, using in the command window the command
+
+> play()
+
+will start the simulation. It can be stopped using
+
+> stop()
+
+## Agents creation
+
+In the multi-agents simulations, agents can be added to the simulation. The command to create them is
+
+> createAgent('name', 'x coordinate of his position', 'y coordinate of his position')
+
+Additionally, in the character types simulator is possible to change the type of agent to create using
+
+> createAgent('name', 'x coordinate of his position', 'y coordinate of his position', 'agent type')
